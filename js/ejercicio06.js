@@ -5,11 +5,11 @@ mayor.
 
 */
 
-let numero1 = prompt("Ingrese un número");
-let numero2 = prompt("Ingrese otro número");
+let numero1 = parseInt(prompt("Ingrese un número"));
+let numero2 = parseInt(prompt("Ingrese otro número"));
 
 if (numero1 > numero2) {
-    document.write("El número " + numero1 + " es mayor");
+    document.write("El número " + numero1 + " es el mayor");
 } else {
-    document.write("El número " + numero2 + " es mayor");
+    document.write("El número " + numero2 + " es el mayor");
 }
