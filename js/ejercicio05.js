@@ -8,7 +8,7 @@ parseInt
 
 */
 
-let numero1 = prompt("Ingrese un número");
-let numero2 = prompt("Ingrese otro número");
+let numero1 = parseInt(prompt("Ingrese un número"));
+let numero2 = parseInt(prompt("Ingrese otro número"));
 
-document.write("La suma de los números es " + (parseInt(numero1) + parseInt(numero2)));
+document.write("La suma de los números es " + (numero1 + numero2));
